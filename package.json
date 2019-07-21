@@ -1,7 +1,17 @@
 {
   "name": "@lemhion1908/tiny",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
+  "description": "Tiny utils of js.",
+  "repository": "github:luzaiping/tiny",
+  "bugs": "https://github.com/luzaiping/tiny/issues",
+  "homepage": "https://github.com/luzaiping/tiny",
+  "keywords": [
+    "js",
+    "utils",
+    "pure-js"
+  ],
+  "author": "Zaiping Lu <lemhion1908@gmail.com>",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [

@@ -1,6 +1,6 @@
 {
   "name": "@lemhion1908/tiny",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "lib/index.js",
   "module": "es/index.js",

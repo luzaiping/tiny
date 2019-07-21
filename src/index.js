@@ -10,7 +10,7 @@ const TYPES = ['String', 'Boolean', 'Number', 'Undefined', 'Null', 'Object', 'Fu
 const typeUtils = (() => {
   const typeObj = {};
   TYPES.forEach((item) => {
-    typeObj[`is${item}`] = value => Object.prototype.toString.call(value) === `object [${item}]`;
+    typeObj[`is${item}`] = value => Object.prototype.toString.call(value) === `[object ${item}]`;
   });
   return typeObj;
 })();

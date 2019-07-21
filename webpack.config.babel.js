@@ -24,7 +24,7 @@ export default {
   output: {
     path: path.join(__dirname, 'dist'),
     filename,
-    library: 'tiny',
+    library: 'tiny', // 这个指定最终要 export umd 的名称, 比如 window.tiny
     libraryTarget: 'umd',
   },
 
